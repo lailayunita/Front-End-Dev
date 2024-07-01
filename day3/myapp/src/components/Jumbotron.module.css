@@ -1,0 +1,48 @@
+.jumbotron {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 60px 10%;
+  align-items: center;
+  background-color: white;
+  justify-content: space-between;
+}
+
+.jumbotron p {
+  margin-top: 20px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.greeting span {
+  color: #c68188;
+}
+
+.sosmed {
+  font-size: 32px;
+  display: flex;
+  gap: 20px;
+}
+
+.item {
+  cursor: pointer;
+}
+.item:hover {
+  color: #c68188;
+}
+
+.right {
+  display: flex;
+  justify-content: end;
+}
+
+.right img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  object-position: bottom;
+  border-radius: 100%;
+}

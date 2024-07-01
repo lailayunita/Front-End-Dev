@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex</title>
+    <style>
+      nav {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+      }
+
+      .menu {
+        width: 200px;
+        height: 50px;
+        background-color: pink;
+        border: 1px solid black;
+      }
+
+      .container {
+        display: flex;
+        /* by default directionnya row */
+        /* flex-direction: column; */
+        /* flex-wrap berguna agar kalo itemnya banyak dia gak mengecil tapi turun ke line selanjutnya */
+        flex-wrap: wrap;
+      }
+
+      .item {
+        width: 200px;
+        height: 200px;
+        background-color: aqua;
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="menu">Home</div>
+      <div class="menu">About</div>
+      <div class="menu">Explore</div>
+      <div class="menu">Profile</div>
+    </nav>
+    <div class="container">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">5</div>
+      <div class="item">6</div>
+      <div class="item">7</div>
+      <div class="item">8</div>
+      <div class="item">9</div>
+      <div class="item">10</div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advanced CSS</title>
+    <style>
+      .contain er {
+        margin: auto;
+        width: 600px;
+        height: 3000px;
+        border: 1px solid black;
+        margin-bottom: 20px;
+      }
+
+      .kotak-1 {
+        background-color: rgb(7, 66, 66);
+        width: 200px;
+        height: 200px;
+        position: sticky;
+        top: 0;
+      }
+      .kotak-2 {
+        background-color: rgb(255, 241, 118);
+        width: 200px;
+        height: 200px;
+      }
+      .kotak-3 {
+        background-color: rgb(192, 34, 113);
+        width: 200px;
+        height: 200px;
+      }
+
+      @media screen and (min-width: 0) and (max-width: 480px) {
+        .kotak-1 {
+          background-color: red;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <!-- di react dan next js nulisnya bukan class tapi harus className -->
+      <div class="container">
+        <div class="kotak-1"></div>
+        <div class="kotak-2"></div>
+        <div class="kotak-3"></div>
+      </div>
+    </div>
+  </body>
+</html>

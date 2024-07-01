@@ -1,0 +1,47 @@
+.navbar {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  background-color: white;
+  align-items: center;
+  padding: 10px 10%;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  color: #616161;
+}
+
+.navItem {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0 40px;
+}
+
+.navbar2 li {
+  list-style-type: none;
+  padding: 10px;
+}
+
+.navbar2 li:hover {
+  background-color: #616161;
+  border-radius: 18px;
+  color: white;
+  cursor: pointer;
+}
+
+.navbar3 {
+  display: flex;
+  justify-content: end;
+}
+.navbar3 button {
+  padding: 10px 20px;
+  border-radius: 18px;
+  border: 1px solid #616161;
+  background-color: white;
+}
+
+.navbar3 button:hover {
+  background-color: #616161;
+  color: white;
+  cursor: pointer;
+}

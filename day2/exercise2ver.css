@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* =================== NAVBAR ================== */
+
+.navbar {
+  display: flex;
+}
+
+.navbar-1 {
+  width: 75%;
+  background-color: aquamarine;
+}
+
+.navbar-2 {
+  width: 25%;
+  background-color: brown;
+}
+
+.nav-item {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  padding: 12px;
+}
+/* ===================  END NAVBAR ================== */
+
+/* =================== BANNER ================== */
+.banner {
+  height: 400px;
+  background-color: bisque;
+  display: flex;
+  justify-content: center;
+}
+
+.banner > h1 {
+  margin-top: 40px;
+}
+/* ===================  END BANNER ================== */
+
+/* =================== CARD 1 ================== */
+.card-1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.card-1 > div {
+  height: 200px;
+}
+
+.card-1 > div > p {
+  padding: 12px;
+}
+/* ===================  END CARD 1 ================== */
+
+/* =================== CARD 2 ================== */
+.card-2 {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+.card-2 > div {
+  height: 600px;
+}
+
+.card-2 > div > p {
+  padding: 12px;
+}
+/* ===================  END CARD 2 ================== */
+
+/* ===================  FOOTER ================== */
+.footer > div > ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  height: 40px;
+  align-items: center;
+}
+/* ===================  END FOOTER================== */

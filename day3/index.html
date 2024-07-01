@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM</title>
+  </head>
+  <body>
+    <h1 id="myElement">Original Text</h1>
+    <button onclick="updateText()">Update Text</button>
+
+    <div id="myElement2"></div>
+
+    <button id="myButton">My Button</button>
+
+    <script>
+      function updateText() {
+        const element = document.getElementById("myElement");
+        element.innerText = "Updated Text";
+      }
+
+      const myElement2 = document.getElementById("myElement2");
+      const newHeading = document.createElement("h1");
+      newHeading.textContent = "This is a new heading";
+      myElement2.appendChild(newHeading);
+
+      const myButton = document.getElementById("myButton");
+      myButton.addEventListener("click", () => {
+        alert("INI ALERT");
+      });
+    </script>
+  </body>
+</html>
+
+<!-- 
+library: hanya sebuah tools jadi bebas cara pakainya -> react.js
+framework: udah ditentukan cara pakainya -> next.js
+-->

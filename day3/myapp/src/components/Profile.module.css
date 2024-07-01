@@ -1,0 +1,22 @@
+.profile {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #616161;
+  color: white;
+  padding: 60px 10%;
+  grid-column-gap: 50px;
+}
+
+.profile img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  text-align: justify;
+}
